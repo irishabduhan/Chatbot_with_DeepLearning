@@ -1,3 +1,7 @@
+
+NOTE: This is linux based program.
+Please run it on Linux based operating system not on windows.
+
 server.c contains Server code
     gcc server.c -o server -luuid
     ./server 2000
