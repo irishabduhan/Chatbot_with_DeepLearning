@@ -13,7 +13,7 @@ client.c contains client code
     ./client 127.0.0.1 2000
     *******************   here Ip address of server: 127.0.0.1     port no: 2000   ******************************
 
-TASK 1:
+Functionality 1: Messaging
 
 /active:  
         It will give you list of active clients
@@ -28,13 +28,20 @@ TASK 1:
 /send all message:
         it will send the the message to all other clients
 
+
+Functionality 2: Frequently Asked Question
+
 /chatbot login
         You will enter into FAQ
+        Select FAQ from FAQs.txt file
 
 Simply type que to get answer inside chatbot login.
 
 /chatbot logout
         To exit from FAQ chatbot and return you to normal texting application.
+
+
+Functionality 3: Maintaining Chat History
 
 /history dest_uuid:
         It will return you all the msg sent and received between sender and dest_uuid
@@ -45,6 +52,8 @@ Simply type que to get answer inside chatbot login.
 /delete all:
         it will delete all the msg.
 
+
+Functionality 4: Integration of  GPT_2 with the chatbot
 
 /chatbot_v2 login
         It will enter you in updated bot i.e gpt2_bot
